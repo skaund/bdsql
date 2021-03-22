@@ -13,7 +13,7 @@ namespace AdoSqlite.DAL
         {
             try
             {
-                using (var connection = new SQLiteConnection(@"Data Sourse=db.sqlite;Version=3;")) 
+                using (var connection = new SQLiteConnection(@"Data Source=db.sqlite;Version=3;")) 
                 {
                     connection.Open();
 
